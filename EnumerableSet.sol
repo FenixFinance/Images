@@ -2,7 +2,7 @@
 
 pragma solidity >=0.6.0 <0.8.0;
 
-import "./ERC20.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/ERC20.sol";
 
 /**
  * @dev Extension of {ERC20} that adds a cap to the supply of tokens.
