@@ -2,8 +2,8 @@
 
 pragma solidity >=0.6.0 <0.8.0;
 
-import "./ERC20.sol";
-import "../../utils/Pausable.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/ERC20.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/Pausable.sol";
 
 /**
  * @dev ERC20 token with pausable token transfers, minting and burning.
