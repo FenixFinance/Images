@@ -2,11 +2,11 @@
 
 pragma solidity >=0.6.0 <0.8.0;
 
-import "../access/AccessControl.sol";
-import "../utils/Context.sol";
-import "../token/ERC20/ERC20.sol";
-import "../token/ERC20/ERC20Burnable.sol";
-import "../token/ERC20/ERC20Pausable.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/AccessControl.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/Context.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/ERC20.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/ERC20Burnable.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/ERC20Pausable.sol";
 
 /**
  * @dev {ERC20} token, including:
