@@ -2,9 +2,9 @@
 
 pragma solidity >=0.6.0 <0.8.0;
 
-import "../utils/EnumerableSet.sol";
-import "../utils/Address.sol";
-import "../utils/Context.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/EnumerableSet.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/Address.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/Context.sol";
 
 /**
  * @dev Contract module that allows children to implement role-based access
