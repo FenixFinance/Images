@@ -2,9 +2,9 @@
 
 pragma solidity >=0.6.0 <0.8.0;
 
-import "../../utils/Context.sol";
-import "./IERC20.sol";
-import "../../math/SafeMath.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/Context.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/IERC20.sol";
+import "https://github.com/FenixFinance/Token-Contract/blob/master/SafeMath.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
