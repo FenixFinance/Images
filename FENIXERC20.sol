@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IFENIXERC20.sol';
-import './libraries/SafeMath.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/IFENIXERC20.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/SafeMath.sol';
 
 contract FENIXERC20 is IFENIXERC20 {
     using SafeMath for uint;
