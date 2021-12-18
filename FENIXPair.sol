@@ -1,14 +1,14 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IZEROPair.sol';
-import './ZEROERC20.sol';
-import './libraries/Math.sol';
-import './libraries/UQ112x112.sol';
-import './interfaces/IERC20.sol';
-import './interfaces/IZEROFactory.sol';
-import './interfaces/IZEROCallee.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/IFENIXPair.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/FENIXERC20.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/Math.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/UQ112x112.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/IERC20.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/IFENIXFactory.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/IFENIXCallee.sol';
 
-contract ZEROPair is IZEROPair, ZEROERC20 {
+contract FENIXPair is IFENIXPair, FENIXERC20 {
     using SafeMath  for uint;
     using UQ112x112 for uint224;
 
