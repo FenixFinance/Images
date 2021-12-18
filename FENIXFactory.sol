@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
-import './interfaces/IFENIXFactory.sol';
-import './FENIXPair.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/IFENIXFactory.sol';
+import 'https://github.com/FenixFinance/Token-Contract/blob/master/FENIXPair.sol';
 
 contract FENIXFactory is IFENIXFactory {
     address public feeTo;
